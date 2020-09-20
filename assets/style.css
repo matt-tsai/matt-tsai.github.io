@@ -1,0 +1,81 @@
+body, h1, h2, h3, h4, h5, h6, p, a {
+  margin: 0;
+}
+
+@font-face {
+  src: url("/fonts/NanumGothicCoding-Regular.woff2");
+  font-family: "Nanum Gothic Coding";
+  font-style: normal;
+  font-weight: normal;
+}
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.container {
+  width: 400px;
+  margin: 100px auto;
+}
+.container h1 {
+  margin-bottom: 30px;
+}
+.container .content {
+  border-left: 1px solid gray;
+}
+.container .content section i {
+  margin-right: 10px;
+}
+.container .content section h2 {
+  margin-left: 10px;
+}
+.container .content section h3 {
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.container .content > :not(:last-child) {
+  margin-bottom: 30px;
+}
+.container .content a {
+  color: inherit;
+}
+.container .content .berkeley h2 {
+  color: #003262;
+}
+.container .content .berkeley h3:nth-child(2) {
+  color: #fdb151;
+}
+.container .content .berkeley h3:nth-child(3) {
+  color: #003262;
+}
+.container .content .links h3:nth-child(2) {
+  color: #0077b5;
+}
+.container .content .links h3:nth-child(3) {
+  color: #999999;
+}
+.container .content .projects h3:nth-child(2) {
+  color: #2F80ED;
+}
+.container .content .courses h3:nth-child(2) {
+  color: #90e0ef;
+}
+.container .content .courses h3:nth-child(3) {
+  color: #48cae4;
+}
+.container .content .courses h3:nth-child(4) {
+  color: #00b4d8;
+}
+.container .content .courses h3:nth-child(5) {
+  color: #0096c7;
+}
+/*link for the colors*/
+/*https://coolors.co/03045e-023e8a-0077b6-0096c7-00b4d8-48cae4-90e0ef-ade8f4-caf0f8 */
+
+.hidden {
+  color: aliceblue;
+  padding: 25px;
+  text-align: center;
+}
+
