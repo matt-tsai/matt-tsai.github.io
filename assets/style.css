@@ -70,6 +70,9 @@ h1, h2, h3, h4, h5, h6, p, a {
 .container .content .courses h3:nth-child(5) {
   color: #0096c7;
 }
+.container .content .courses h3:nth-child(6) {
+  color: #0077B6;
+}
 /*link for the colors*/
 /*https://coolors.co/03045e-023e8a-0077b6-0096c7-00b4d8-48cae4-90e0ef-ade8f4-caf0f8 */
 
