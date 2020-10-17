@@ -49,14 +49,45 @@ h1, h2, h3, h4, h5, h6, p, a {
 .container .content .berkeley h3:nth-child(3) {
   color: #003262;
 }
+
+.container .content .links h2 {
+  color: #003262;
+}
 .container .content .links h3:nth-child(2) {
   color: #0077b5;
 }
 .container .content .links h3:nth-child(3) {
   color: #999999;
 }
+.container .content .links h3:nth-child(4) {
+  color: #5C5B57;
+}
+.container .content .links h3:nth-child(5) {
+  color: #E97474;
+}
+
+.container .content .projects h2 {
+  color: #003262;
+}
 .container .content .projects h3:nth-child(2) {
-  color: #2F80ED;
+  color: #92C89D;
+}
+.container .content .projects h3:nth-child(3) {
+  color: #78BB85;
+}
+.container .content .projects h3:nth-child(4) {
+  color: #5CAD6C;
+}
+.container .content .projects h3:nth-child(5) {
+  color: #4B955A;
+}
+.container .content .projects h3:nth-child(6) {
+  color: #3E7A4B;
+}
+/*https://coolors.co/4b955a-5cad6c-78bb85-92c89d*/
+
+.container .content .courses h2 {
+  color: #003262;
 }
 .container .content .courses h3:nth-child(2) {
   color: #90e0ef;
@@ -75,6 +106,23 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 /*link for the colors*/
 /*https://coolors.co/03045e-023e8a-0077b6-0096c7-00b4d8-48cae4-90e0ef-ade8f4-caf0f8 */
+.container .content .courses h3:nth-child(7) {
+  color: #AF99C2;
+}
+.container .content .courses h3:nth-child(8) {
+  color: #9B80B3;
+}
+.container .content .courses h3:nth-child(9) {
+  color: #8766A3;
+}
+/*https://coolors.co/8766a3-9b80b3-af99c2-c3b3d1-d7cce0*/
+
+.container .content .tutor h2 {
+  color: #003262;
+}
+.container .content .tutor h3:nth-child(2) {
+  color: #3F2F4B;
+}
 
 .hidden {
   color: aliceblue;
