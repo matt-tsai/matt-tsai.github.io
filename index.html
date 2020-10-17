@@ -27,14 +27,16 @@
           <h3><i class="far fa-file-pdf fa-fw"></i><a href="/assets/Website_Resume.pdf" target="_blank">Résumé</a></h3>
         </section>
         <section class="projects">
-          <h2><i class="fas fa-flask fa-fw"></i>Projects</h2> <!-- make some js for recruiters so I can show some code-->
+          <h2 class="popup" onmouseover="myPopUp('projPop')"><i class="fas fa-flask fa-fw"></i>Projects
+            <span class="popuptext" id="projPop">Code Available Upon Request!</span> 
+          </h2> <!-- make some js for recruiters so I can show some code-->
           <h3><i class="fas fa-heartbeat"></i><a href="https://cs61c.org/fa20/projects/proj1/">Game Of Life</a></h3>
-          <h3 class="popup" onmouseover="myPopUp()"><i class="fas fa-tasks"></i>Notify
-            <span class="popuptext" id="myPopup">Link Coming Soon!</span> 
+          <h3 class="popup" onmouseover="myPopUp('notifyPop')"><i class="fas fa-tasks"></i>Notify
+            <span class="popuptext" id="notifyPop">Link Coming Soon!</span> 
           </h3>
         </br>
-          <h3 class="popup" onmouseover="myPopUp()"><i class="fas fa-beer"></i>Brew2You
-            <span class="popuptext" id="myPopup">Link Coming Soon!</span> 
+          <h3 class="popup" onmouseover="myPopUp('brewPop')"><i class="fas fa-beer"></i>Brew2You
+            <span class="popuptext" id="brewPop">Link Coming Soon!</span> 
           </h3>
           <h3><i class="fab fa-git-square"></i><a href="https://inst.eecs.berkeley.edu/~cs61b/sp20/materials/proj/proj3/index.html">Gitlet</a></h3>
           <h3><i class="fas fa-bug"></i><a href="https://inst.eecs.berkeley.edu/~cs61a/fa19/proj/ants/">Ants</a></h3>
