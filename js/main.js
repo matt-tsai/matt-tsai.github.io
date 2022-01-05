@@ -26,7 +26,7 @@ var configs = (function () {
         rmdir_help: "Remove directory, this command will only work if the folders are empty.",
         touch_help: "Change file timestamps. If the file doesn't exist, it's created an empty one.",
         sudo_help: "Execute a command as the superuser.",
-        welcome: "Welcome to FTW (Fake Terminal Website)! :)\nIn order for you to start customizing the texts, go to js/main.js and replace the texts located at the configs var.\nIn that same file, you can define all the fake files you want as well as their content. This files will appear on the sidenav.\nAlso, don't forget to change the colors on the css/main.css file as well as the website title on the index.html file.\nNow in order to get started, feel free to either execute the 'help' command or use the more user-friendly colored sidenav at your left.\nIn order to skip text rolling, double click/touch anywhere.",
+        welcome: "Hi! I'm Matthew Tsai :)\n I'm an undergraduate at UC Berkeley studying Computer Science and Economics.\n Currently, I am seeking a Summer 2022 Internship in Software Engineering and Computer Security.\n Now in order to get started, feel free to either execute the 'help' command or use the colored sidenav at your left.\nIn order to skip text rolling, double click/touch anywhere.",
         internet_explorer_warning: "NOTE: I see you're using internet explorer, this website won't work properly.",
         welcome_file_name: "welcome_message.txt",
         invalid_command_message: "<value>: command not found.",
@@ -42,10 +42,10 @@ var configs = (function () {
         accesible_cores: "Accessible cores",
         language: "Language",
         value_token: "<value>",
-        host: "example.com",
+        host: "matt-tsai.github.io",
         user: "guest",
         is_root: false,
-        type_delay: 20
+        type_delay: 0
     };
     return {
         getInstance: function (options) {
@@ -67,11 +67,26 @@ var files = (function () {
         }
     };
     Singleton.defaultOptions = {
-        "about.txt": "This website was made using only pure JavaScript with no extra libraries.\nI made it dynamic so anyone can use it, just download it from GitHub and change the config text according to your needs.\nIf you manage to find any bugs or security issues feel free to email me: luisbraganca@protonmail.com",
-        "getting_started.txt": "First, go to js/main.js and replace all the text on both singleton vars.\n- configs: All the text used on the website.\n- files: All the fake files used on the website. These files are also used to be listed on the sidenav.\nAlso please notice if a file content is a raw URL, when clicked/concatenated it will be opened on a new tab.\nDon't forget also to:\n- Change the page title on the index.html file\n- Change the website color on the css/main.css\n- Change the images located at the img folder. The suggested sizes are 150x150 for the avatar and 32x32/16x16 for the favicon.",
-        "contact.txt": "mail@example.com",
-        "social_network_1.txt": "https://www.socialite.com/username/",
-        "social_network_2.txt": "https://example.com/profile/9382/"
+        "classes.txt": "Computer Science Classes: \n \
+        CS 61A: Intro to Computer Programming\n \
+        CS 61B: Data Structures\n \
+        CS 70: Discrete Math and Probability\n \
+        CS 61C: Computer Architecture\n \
+        CS 188: Artificial Intelligence\n \
+        CS 170: Efficient Algorithms\n \
+        CS 161: Computer Security\n \
+        CS 186: Database Systems\n \
+        CS 174: Combinatorics and Discrete Probability",
+        "projects" : "Due to university agreements, most of my projects are private on github:\n \
+        Code is Available upon request - Here are descriptions of some of my favorite projects\n\n \
+        >>> Encrypted File System <<< \n Designed and implemented an end-to-end encrypted file sharing system in GoLang with a zero-trust default architecture. The system was intentionally built on a vulnerable server to run penetration testson the system.\n\n \
+        >>> Exploiting Memory Vulnerabilities <<< \n  Implemented stack smashing exploits, buffer overflows, and ROP in vulnerable C files with inputs written Python. Made the vulnerable program run a shell script and accessed private data. Used integer conversion, string formatting vulnerabilities, buffer overflow to bypass canary testing. \n\n \
+        >>> Pacman Reinforcement Learning <<< \n Implemented value iteration and Q-learning on agents then applied them to Pacman in Python. \n\n \
+        >>> Numpy in C <<< \n Implemented a version of numpy in C that utilizes both instruction-level and data level parallelism. Achieved over 1300x speed up on matrix multiplication by using SIMD and unrolling techniques. \n\n \
+        >>> Gitlet <<< \n Wrote a version control system in Java completely from scratch that mimics the core functionalities of Git: branch, merge, commit, checkout etc.",
+        "contact.txt": "mtsai1 [at] berkeley [dot] edu",
+        "linked_in.txt": "https://www.linkedin.com/in/m-tsai/",
+        "resume.txt": "https://matt-tsai.github.io/assets/Website_Resume.pdf"
     };
     return {
         getInstance: function (options) {
