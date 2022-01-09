@@ -84,6 +84,8 @@ var files = (function () {
         >>> Pacman Reinforcement Learning <<< \n Implemented value iteration and Q-learning on agents then applied them to Pacman in Python. \n\n \
         >>> Numpy in C <<< \n Implemented a version of numpy in C that utilizes both instruction-level and data level parallelism. Achieved over 1300x speed up on matrix multiplication by using SIMD and unrolling techniques. \n\n \
         >>> Gitlet <<< \n Wrote a version control system in Java completely from scratch that mimics the core functionalities of Git: branch, merge, commit, checkout etc.",
+        "puzzle.me" : "26f74c05f070ea9113d734b2066c10d7",
+        "hint.me" : "md5",
         "contact.txt": "mtsai1 [at] berkeley [dot] edu",
         "linked_in.txt": "https://www.linkedin.com/in/m-tsai/",
         "resume.txt": "https://matt-tsai.github.io/assets/Website_Resume.pdf"
