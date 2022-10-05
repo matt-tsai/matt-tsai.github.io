@@ -75,6 +75,7 @@ var files = (function () {
         CS 188: Artificial Intelligence\n \
         CS 170: Efficient Algorithms\n \
         CS 161: Computer Security\n \
+        CS 168: Internet Protocols\n \
         CS 186: Database Systems\n \
         CS 174: Combinatorics and Discrete Probability",
         "projects" : "Due to university agreements, most of my projects are private on github:\n \
@@ -84,6 +85,10 @@ var files = (function () {
         >>> Pacman Reinforcement Learning <<< \n Implemented value iteration and Q-learning on agents then applied them to Pacman in Python. \n\n \
         >>> Numpy in C <<< \n Implemented a version of numpy in C that utilizes both instruction-level and data level parallelism. Achieved over 1300x speed up on matrix multiplication by using SIMD and unrolling techniques. \n\n \
         >>> Gitlet <<< \n Wrote a version control system in Java completely from scratch that mimics the core functionalities of Git: branch, merge, commit, checkout etc.",
+        "internship.txt" : "Here are my most recent positions: \n \
+        >>> Google <<< Google Cloud Platform OSS: Trusted Platform Modules \n \
+        >>> Twilio <<< Solutions Team : Enterprise Software Solutions \n \
+        >>> Brew2You <<< UIUX Team : Frontend Development",
         "puzzle.me" : "26f74c05f070ea9113d734b2066c10d7",
         "hint.me" : "md5",
         "contact.txt": "mtsai1 [at] berkeley [dot] edu",
